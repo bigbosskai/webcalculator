@@ -11,6 +11,10 @@ int sub(int a, int b){
 void print_hello(){
 	return;
 }
+void print_hi(){
+	return;
+}
+
 //设置sockfd,pipefd非阻塞
 int setnonblocking(int sockfd)
 {
