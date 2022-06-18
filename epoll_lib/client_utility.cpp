@@ -1,4 +1,8 @@
 #include "client_utility.h"
+//完成add功能
+int add(int a, int b){
+	return a+b;
+}
 
 //设置sockfd,pipefd非阻塞
 int setnonblocking(int sockfd)
