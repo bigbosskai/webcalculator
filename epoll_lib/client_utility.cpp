@@ -7,6 +7,10 @@ int add(int a, int b){
 int sub(int a, int b){
 	return a-b;
 }
+
+void print_hello(){
+	return;
+}
 //设置sockfd,pipefd非阻塞
 int setnonblocking(int sockfd)
 {
