@@ -1,5 +1,11 @@
 #include "server_utility.h"
 
+//增加mul功能
+int mul(int a,int b)
+{
+		return a / b;
+}
+
 // 从"num1 num2"格式中解析出num1+num2的结果
 int getAddResult(char buf[], int len){
 // int getAddResult(char *buf, int len){
