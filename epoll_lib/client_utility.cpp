@@ -3,7 +3,10 @@
 int add(int a, int b){
 	return a+b;
 }
-
+//完成SUB功能
+int sub(int a, int b){
+	return a-b;
+}
 //设置sockfd,pipefd非阻塞
 int setnonblocking(int sockfd)
 {
