@@ -1,4 +1,9 @@
 #include "client_utility.h"
+
+float div(int a, int b){
+	return (float)a/b;
+}
+
 //完成add功能
 int add(int a, int b){
 	return a+b;
