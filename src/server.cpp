@@ -1,6 +1,9 @@
 //server.cpp
 #include "server_utility.h"
 
+int sub( int a, int b){
+	return a-b;
+}
 list<int> clients_list;
 
 int main(int argc, char *argv[])
